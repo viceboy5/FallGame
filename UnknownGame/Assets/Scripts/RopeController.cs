@@ -22,6 +22,10 @@ public class RopeController : MonoBehaviour
             Fire();
             Debug.Log("MouseDown");
         }
+       /* else
+        {
+            GameObject.DestroyImmediate(rope);
+        }*/
     }
 
     void LateUpdate()
@@ -64,7 +68,8 @@ public class RopeController : MonoBehaviour
         if (hit.collider != null)
         {
             SpringJoint2D newRope = ropeShooter.AddComponent<SpringJoint2D>();
-            newRope.distance = 1;
+            newRope.autoConfigureDistance = false;
+            newRope.distance = 2;
             newRope.enableCollision = false;
             newRope.frequency = .5f;
             newRope.connectedAnchor = hit.point;
