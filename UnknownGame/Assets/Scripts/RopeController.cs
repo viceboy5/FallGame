@@ -9,9 +9,9 @@ public class RopeController : MonoBehaviour
 {
 
     public GameObject ropeShooter;
+    public GameObject anchor;
 
     public SpringJoint2D rope;
-    //public int maxRopeFrameCount;
     private int ropeFrameCount;
     public bool canFire;
     public UnityEvent startFireEvent, endFireEvent;
@@ -29,18 +29,6 @@ public class RopeController : MonoBehaviour
             yield return new WaitForFixedUpdate();
             Fire();
             Debug.Log("MouseDown");
-            
-            /*if (rope != null)
-            {
-                lineRenderer.enabled = true;
-                lineRenderer.SetVertexCount(2);
-                lineRenderer.SetPosition(0, ropeShooter.transform.position);
-                lineRenderer.SetPosition(1, rope.connectedAnchor);
-            }
-            else
-            {
-                lineRenderer.enabled = false;
-            }*/
         }
         
     }
