@@ -1,7 +1,8 @@
-using System;
+
 using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
+using UnityEngine.Events;
 
 //Created with video tutorial "Unity 2d Basic Rope Swinging Physics" by 10 Minute Tutorials
 public class RopeController : MonoBehaviour
@@ -10,22 +11,46 @@ public class RopeController : MonoBehaviour
     public GameObject ropeShooter;
 
     public SpringJoint2D rope;
-    public int maxRopeFrameCount;
+    //public int maxRopeFrameCount;
     private int ropeFrameCount;
+    public bool canFire;
+    public UnityEvent startFireEvent, endFireEvent;
 
     public LineRenderer lineRenderer;
     
-    void Update()
+    public IEnumerator OnMouseDown()
     {
-        if (Input.GetMouseButtonDown(0))
+        canFire = true;
+        startFireEvent.Invoke();
+        yield return new WaitForFixedUpdate();
+        
+        if (canFire)
         {
+            yield return new WaitForFixedUpdate();
             Fire();
             Debug.Log("MouseDown");
+            
+            /*if (rope != null)
+            {
+                lineRenderer.enabled = true;
+                lineRenderer.SetVertexCount(2);
+                lineRenderer.SetPosition(0, ropeShooter.transform.position);
+                lineRenderer.SetPosition(1, rope.connectedAnchor);
+            }
+            else
+            {
+                lineRenderer.enabled = false;
+            }*/
         }
-       /* else
-        {
-            GameObject.DestroyImmediate(rope);
-        }*/
+        
+    }
+
+    private void OnMouseUp()
+    {
+        canFire = false;
+        GameObject.DestroyImmediate(rope);
+        endFireEvent.Invoke();
+        
     }
 
     void LateUpdate()
@@ -41,6 +66,7 @@ public class RopeController : MonoBehaviour
         {
             lineRenderer.enabled = false;
         }
+        Debug.Log("this is a mess");
     }
 
     /*private void FixedUpdate()
