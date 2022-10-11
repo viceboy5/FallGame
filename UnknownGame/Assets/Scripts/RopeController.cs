@@ -22,6 +22,7 @@ public class RopeController : MonoBehaviour
     {
         canFire = true;
         startFireEvent.Invoke();
+
         yield return new WaitForFixedUpdate();
         
         if (canFire)
@@ -54,7 +55,8 @@ public class RopeController : MonoBehaviour
         {
             lineRenderer.enabled = false;
         }
-        Debug.Log("this is a mess");
+
+        Debug.Log("ewwwww");
     }
 
     void Fire()
