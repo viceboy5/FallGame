@@ -57,20 +57,6 @@ public class RopeController : MonoBehaviour
         Debug.Log("this is a mess");
     }
 
-    /*private void FixedUpdate()
-    {
-        if (rope != null)
-        {
-            ropeFrameCount++;
-
-            if (ropeFrameCount > maxRopeFrameCount)
-            {
-                GameObject.DestroyImmediate(rope);
-                ropeFrameCount = 0;
-            }
-        }
-    }*/
-
     void Fire()
     {
         Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -83,9 +69,10 @@ public class RopeController : MonoBehaviour
         {
             SpringJoint2D newRope = ropeShooter.AddComponent<SpringJoint2D>();
             newRope.autoConfigureDistance = false;
-            newRope.distance = 2;
+            newRope.distance = 2f;
             newRope.enableCollision = false;
             newRope.frequency = .5f;
+            newRope.dampingRatio = .5f;
             newRope.connectedAnchor = hit.point;
             newRope.enabled = true;
             Debug.Log("Firing");
