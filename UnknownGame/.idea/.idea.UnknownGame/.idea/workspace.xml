@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e902a25f-adfc-4b96-b472-5b7f306d95f1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RopeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RopeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptLibrary" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptLibrary" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptLibrary/Vector3Data.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptLibrary/Vector3Data.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,12 +11,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Grappler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RopeController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../ScriptLibrary/Hit.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../ScriptLibrary/ScoreManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../ScriptLibrary/Vector3Data.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Unity-Repository/UFO Defense Force/Assets/Scripts/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -79,6 +76,7 @@
       <workItem from="1665270204317" duration="751000" />
       <workItem from="1665449607115" duration="8571000" />
       <workItem from="1665536432893" duration="4099000" />
+      <workItem from="1665598038914" duration="2838000" />
     </task>
     <servers />
   </component>
