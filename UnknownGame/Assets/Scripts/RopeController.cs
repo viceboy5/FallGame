@@ -9,10 +9,9 @@ public class RopeController : MonoBehaviour
 {
     
     public GameObject ropeShooter;
-    public GameObject anchor;
+    //public GameObject anchor;
 
     public SpringJoint2D rope;
-    private int ropeFrameCount;
     public bool canFire;
     public UnityEvent startFireEvent, endFireEvent;
 
@@ -55,6 +54,7 @@ public class RopeController : MonoBehaviour
         else
         {
             lineRenderer.enabled = false;
+            Debug.Log("not rendering Line");
         }
 
         Debug.Log("ewwwww");
@@ -82,8 +82,6 @@ public class RopeController : MonoBehaviour
 
             GameObject.DestroyImmediate(rope);
             rope = newRope;
-            ropeFrameCount = 0;
-
         }
     }
 }
