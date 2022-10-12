@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6abfd1176466314ea6cdaf1375f72cc, type: 3}
   m_Name: SwingableInstancer
   m_EditorClassIdentifier: 
-  prefab: {fileID: 0}
+  prefab: {fileID: 7638198094960859207, guid: 9cf7a4cbcef2943469879278828d5fa5, type: 3}

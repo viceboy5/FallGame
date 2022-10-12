@@ -12,4 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a0fd0120821b3142858bda9e2a0b3f3, type: 3}
   m_Name: Swingable V3List
   m_EditorClassIdentifier: 
-  vector3List: []
+  vector3List:
+  - {fileID: 11400000, guid: 2fbf30221fd6fb84f8e7d14ff9ba30c6, type: 2}
