@@ -1248,7 +1248,6 @@ GameObject:
   - component: {fileID: 1043411194}
   - component: {fileID: 1043411200}
   - component: {fileID: 1043411196}
-  - component: {fileID: 1043411201}
   - component: {fileID: 1043411202}
   - component: {fileID: 1043411203}
   m_Layer: 2
@@ -1461,28 +1460,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &1043411201
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1043411185}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c1a3aabf1cf38c4ab3eef4e685a1ff4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ropeShooter: {fileID: 1645840583}
-  rope: {fileID: 0}
-  canFire: 0
-  startFireEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  endFireEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  lineRenderer: {fileID: 1043411196}
 --- !u!114 &1043411202
 MonoBehaviour:
   m_ObjectHideFlags: 0
