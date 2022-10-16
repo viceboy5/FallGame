@@ -13,7 +13,7 @@ public class RopeController : MonoBehaviour
 
     public LineRenderer lineRenderer;
     
-    public IEnumerator OnMouseDown()
+    private IEnumerator OnMouseDown()
     {
         canFire = true;
         startFireEvent.Invoke();
@@ -37,7 +37,7 @@ public class RopeController : MonoBehaviour
         
     }
 
-    void Fire()
+    private void Fire()
     {
         Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Vector3 position = ropeShooter.transform.position;
@@ -61,7 +61,7 @@ public class RopeController : MonoBehaviour
            
         }
     }
-    void LateUpdate()
+    private void LateUpdate()
     {
         if (rope != null)
         {
