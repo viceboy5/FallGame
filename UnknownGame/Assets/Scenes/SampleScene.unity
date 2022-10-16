@@ -1250,6 +1250,7 @@ GameObject:
   - component: {fileID: 1043411196}
   - component: {fileID: 1043411201}
   - component: {fileID: 1043411202}
+  - component: {fileID: 1043411203}
   m_Layer: 2
   m_Name: Player
   m_TagString: Untagged
@@ -1317,7 +1318,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1043411185}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9, y: 3.71, z: 0.22981}
+  m_LocalPosition: {x: -9, y: 3.71, z: 0}
   m_LocalScale: {x: 0.54038, y: 0.54038, z: 0.54038}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1509,12 +1510,38 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1043411203}
+        m_TargetAssemblyTypeName: TransformBehaviour, Assembly-CSharp
+        m_MethodName: StartRepeatUntilFalse
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   awakeEvent:
     m_PersistentCalls:
       m_Calls: []
   disableEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1043411203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043411185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 112925462b605dc4a86b826af964fef7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  v3Data: {fileID: 11400000, guid: 1553adcc1de79a742b57712784085791, type: 2}
+  canRun: {fileID: 11400000, guid: 772a9605c684c9e4da3a6a5c1d255c34, type: 2}
 --- !u!1 &1086726021
 GameObject:
   m_ObjectHideFlags: 0
