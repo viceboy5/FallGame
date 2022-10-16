@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e902a25f-adfc-4b96-b472-5b7f306d95f1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.UnknownGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnknownGame/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/RopeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RopeController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +77,7 @@
       <workItem from="1665536432893" duration="4099000" />
       <workItem from="1665598038914" duration="2838000" />
       <workItem from="1665795638685" duration="262000" />
-      <workItem from="1665954634645" duration="5992000" />
+      <workItem from="1665954634645" duration="6337000" />
     </task>
     <servers />
   </component>
