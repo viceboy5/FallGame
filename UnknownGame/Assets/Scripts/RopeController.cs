@@ -58,6 +58,7 @@ public class RopeController : MonoBehaviour
             Debug.Log("Firing");
 
             rope = newRope;
+           
         }
     }
     void LateUpdate()
