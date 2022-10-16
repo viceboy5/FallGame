@@ -1,6 +1,4 @@
-
 using System.Collections;
-
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -9,8 +7,6 @@ public class RopeController : MonoBehaviour
 {
     
     public GameObject ropeShooter;
-    //public GameObject anchor;
-
     public SpringJoint2D rope;
     public bool canFire;
     public UnityEvent startFireEvent, endFireEvent;
@@ -41,23 +37,6 @@ public class RopeController : MonoBehaviour
         
     }
 
-    void LateUpdate()
-    {
-        if (rope != null)
-        {
-            lineRenderer.enabled = true;
-            lineRenderer.SetVertexCount(2);
-            lineRenderer.SetPosition(0, ropeShooter.transform.position);
-            lineRenderer.SetPosition(1, rope.connectedAnchor);
-        }
-        else
-        {
-            lineRenderer.enabled = false;
-        }
-
-        Debug.Log("ewwwww");
-    }
-
     void Fire()
     {
         Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -78,9 +57,24 @@ public class RopeController : MonoBehaviour
             newRope.enabled = true;
             Debug.Log("Firing");
 
-            GameObject.DestroyImmediate(rope);
             rope = newRope;
         }
+    }
+    void LateUpdate()
+    {
+        if (rope != null)
+        {
+            lineRenderer.enabled = true;
+            //lineRenderer.SetVertexCount(2);
+            lineRenderer.SetPosition(0, ropeShooter.transform.position);
+            lineRenderer.SetPosition(1, rope.connectedAnchor);
+        }
+        else
+        {
+            lineRenderer.enabled = false;
+        }
+
+        Debug.Log("ewwwww");
     }
 }
 
