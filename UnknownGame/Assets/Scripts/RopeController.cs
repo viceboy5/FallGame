@@ -49,12 +49,10 @@ public class RopeController : MonoBehaviour
             lineRenderer.SetVertexCount(2);
             lineRenderer.SetPosition(0, ropeShooter.transform.position);
             lineRenderer.SetPosition(1, rope.connectedAnchor);
-            Debug.Log("rendering Line");
         }
         else
         {
             lineRenderer.enabled = false;
-            Debug.Log("not rendering Line");
         }
 
         Debug.Log("ewwwww");
