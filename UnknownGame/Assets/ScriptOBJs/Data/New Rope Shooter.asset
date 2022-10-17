@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8635a9fa394e6f2429cc6f9b3e310199, type: 3}
   m_Name: New Rope Shooter
   m_EditorClassIdentifier: 
-  shooter: {fileID: 0}
+  shooter: {fileID: 1448746368236348615, guid: e1977eb58d78d9448a82f230cd181295, type: 3}
