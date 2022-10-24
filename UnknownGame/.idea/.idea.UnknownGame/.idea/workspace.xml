@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e902a25f-adfc-4b96-b472-5b7f306d95f1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnknownGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnknownGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RopeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RopeController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,6 +10,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RopeController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptLibrary/BoolData.cs" root0="FORCE_HIGHLIGHTING" />
@@ -80,7 +80,7 @@
       <workItem from="1665598038914" duration="2838000" />
       <workItem from="1665795638685" duration="262000" />
       <workItem from="1665954634645" duration="8176000" />
-      <workItem from="1666572089826" duration="802000" />
+      <workItem from="1666572089826" duration="1625000" />
     </task>
     <servers />
   </component>
