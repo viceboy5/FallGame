@@ -16,7 +16,9 @@ public class RoofTransformBehaviour : MonoBehaviour
 
     private void SetRoofV3Value()
     {
-        roofV3.value = parentV3.value;
+        roofV3.value[0] = parentV3.value[0] + 10.5f;
+        roofV3.value[1] = 5;
+        roofV3.value[2] = 0;
     }
 
     public void StartRepeatUntilFalse()
@@ -31,6 +33,7 @@ public class RoofTransformBehaviour : MonoBehaviour
         while (canRun.value) 
         {
             SetRoofV3Value();
+
             yield return wffu;
             
         }
