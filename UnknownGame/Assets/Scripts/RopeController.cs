@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
@@ -12,7 +13,13 @@ public class RopeController : MonoBehaviour
     public UnityEvent startFireEvent, endFireEvent;
 
     public LineRenderer lineRenderer;
-    
+
+
+    void Start()
+    {
+        ropeShooter = GameObject.Find("Player");
+    }
+
     private IEnumerator OnMouseDown()
     {
         canFire = true;
