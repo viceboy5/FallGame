@@ -56,7 +56,7 @@ public class RopeController : MonoBehaviour
         {
             SpringJoint2D newRope = ropeShooter.AddComponent<SpringJoint2D>();
             newRope.autoConfigureDistance = false;
-            newRope.distance = 2f;
+            newRope.distance = 4f;
             newRope.enableCollision = false;
             newRope.frequency = .5f;
             newRope.dampingRatio = .5f;
