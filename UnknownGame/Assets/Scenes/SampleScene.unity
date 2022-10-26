@@ -203,7 +203,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 55195061}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 89.53, y: -3.38, z: 0}
+  m_LocalPosition: {x: -2.31, y: 3.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -651,7 +651,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 605033968}
+        m_TargetAssemblyTypeName: PositionTransferBehaviour, Assembly-CSharp
+        m_MethodName: StartRepeatUntilFalse
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   startCountEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -723,19 +735,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 605033968}
-        m_TargetAssemblyTypeName: RoofTransformBehaviour, Assembly-CSharp
-        m_MethodName: StartRepeatUntilFalse
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   awakeEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -1419,8 +1419,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1721518837}
   - component: {fileID: 1721518836}
-  - component: {fileID: 1721518835}
-  - component: {fileID: 1721518834}
+  - component: {fileID: 1721518838}
   m_Layer: 0
   m_Name: ObstacleInstancer
   m_TagString: Untagged
@@ -1428,55 +1427,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1721518834
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1721518833}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6765215d2657524439de10f5f81f328d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentV3: {fileID: 11400000, guid: 9c9aa0458646a124cae5aa58ec563386, type: 2}
-  childV3: {fileID: 0}
-  canRun: {fileID: 11400000, guid: c9c8def00b307a445b850659dbda85fb, type: 2}
-  distance: 0
---- !u!114 &1721518835
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1721518833}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7fcb6bf01fafe942929a828ccda7ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1721518834}
-        m_TargetAssemblyTypeName: RoofTransformBehaviour, Assembly-CSharp
-        m_MethodName: StartRepeatUntilFalse
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  awakeEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  disableEvent:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &1721518836
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1491,7 +1441,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1721518838}
+        m_TargetAssemblyTypeName: V3PositionUpdater, Assembly-CSharp
+        m_MethodName: StartRepeatUntilFalse
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   startCountEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -1516,20 +1478,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 11500000, guid: 4c61a80c04afc79488de6edb625f02c7, type: 3}
-        m_TargetAssemblyTypeName: Instancer, Assembly-CSharp
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
   counterNum: {fileID: 0}
-  seconds: 3.5
+  seconds: 2
 --- !u!4 &1721518837
 Transform:
   m_ObjectHideFlags: 0
@@ -1545,6 +1495,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1721518838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1721518833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 139a0ee53f836bc49901d7d75320241b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentV3: {fileID: 11400000, guid: 9c9aa0458646a124cae5aa58ec563386, type: 2}
+  childV3: {fileID: 11400000, guid: 36274cd7e68e78f4c92c387d83c68b90, type: 2}
+  child1V3: {fileID: 11400000, guid: c71994dfe2315374a968c157b78c5e07, type: 2}
+  child2V3: {fileID: 11400000, guid: 9f185ad57cdc5ff47881db53765b8373, type: 2}
+  child3V3: {fileID: 11400000, guid: 8f7bf8f384d92ee4eb88dda797655c14, type: 2}
+  canRun: {fileID: 11400000, guid: c9c8def00b307a445b850659dbda85fb, type: 2}
+  distance: 20.5
 --- !u!1 &1816393052
 GameObject:
   m_ObjectHideFlags: 0
@@ -1755,6 +1724,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1721518836}
+        m_TargetAssemblyTypeName: CoroutineBehaviour, Assembly-CSharp
+        m_MethodName: StartRepeatUntilFalse
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &2053836555
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1826,11 +1807,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5355942954932641442, guid: 849b813bb391c50428b0aa95f627b94a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 83.6
+      value: 9.63
       objectReference: {fileID: 0}
     - target: {fileID: 5355942954932641442, guid: 849b813bb391c50428b0aa95f627b94a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4
+      value: -1.15
       objectReference: {fileID: 0}
     - target: {fileID: 5355942954932641442, guid: 849b813bb391c50428b0aa95f627b94a, type: 3}
       propertyPath: m_LocalPosition.z
