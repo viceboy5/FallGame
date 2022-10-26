@@ -1,12 +1,13 @@
 using System.Collections;
 using UnityEngine;
 
-public class RoofTransformBehaviour : MonoBehaviour
+public class PositionTransferBehaviour : MonoBehaviour
 {
     public Vector3Data parentV3;
-    public Vector3Data roofV3;
+    public Vector3Data childV3;
     private WaitForFixedUpdate wffu;
     public BoolData canRun;
+    public float distance;
     
     
     public void ResetToZero()
@@ -16,9 +17,9 @@ public class RoofTransformBehaviour : MonoBehaviour
 
     private void SetRoofV3Value()
     {
-        roofV3.value[0] = parentV3.value[0] + 10.5f;
-        roofV3.value[1] = 1;
-        roofV3.value[2] = 0;
+        childV3.value[0] = parentV3.value[0] + distance;
+        childV3.value[1] = 1;
+        childV3.value[2] = 0;
     }
 
     public void StartRepeatUntilFalse()
