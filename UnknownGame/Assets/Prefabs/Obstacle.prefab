@@ -12,9 +12,8 @@ GameObject:
   - component: {fileID: 5355942954932641443}
   - component: {fileID: 5355942954932641440}
   - component: {fileID: 5355942954932641441}
-  - component: {fileID: 5355942954932641445}
   - component: {fileID: 5355942954932641444}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Obstacle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -138,28 +137,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &5355942954932641445
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5355942954932641454}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c1a3aabf1cf38c4ab3eef4e685a1ff4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ropeShooter: {fileID: 0}
-  rope: {fileID: 0}
-  canFire: 0
-  startFireEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  endFireEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  lineRenderer: {fileID: 5355942954932641444}
 --- !u!120 &5355942954932641444
 LineRenderer:
   m_ObjectHideFlags: 0
