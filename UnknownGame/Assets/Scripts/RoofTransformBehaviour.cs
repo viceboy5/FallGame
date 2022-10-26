@@ -17,7 +17,7 @@ public class RoofTransformBehaviour : MonoBehaviour
     private void SetRoofV3Value()
     {
         roofV3.value[0] = parentV3.value[0] + 10.5f;
-        roofV3.value[1] = 5;
+        roofV3.value[1] = 1;
         roofV3.value[2] = 0;
     }
 
