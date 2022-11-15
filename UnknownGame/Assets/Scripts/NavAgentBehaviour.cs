@@ -6,8 +6,8 @@ using UnityEngine.AI;
 public class NavAgentBehaviour : MonoBehaviour
 {
     private NavMeshAgent agent;
-    public Vector3Data playerLoc;
-    
+    public Vector3Data destination;
+
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -15,8 +15,9 @@ public class NavAgentBehaviour : MonoBehaviour
     
     void Update()
     {
-        agent.destination = playerLoc.value;
+        agent.destination = destination.value;
     }
+    
 }
 
 
