@@ -1611,6 +1611,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destination: {fileID: 11400000, guid: 1553adcc1de79a742b57712784085791, type: 2}
+  newDestination: {fileID: 11400000, guid: 8f62acb54dd3f3e47a3c903274a098d6, type: 2}
+  canRun: {fileID: 11400000, guid: 24d7c6bed62d82c44a434324fac795b3, type: 2}
 --- !u!1 &963313428
 GameObject:
   m_ObjectHideFlags: 0
@@ -2171,6 +2173,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 888267999}
+        m_TargetAssemblyTypeName: NavAgentBehaviour, Assembly-CSharp
+        m_MethodName: newLocation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!58 &1064883570
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2202,7 +2216,7 @@ MonoBehaviour:
   parentV3: {fileID: 11400000, guid: 363fb5d1e79a4d642aa91b7cb494e748, type: 2}
   childV3: {fileID: 11400000, guid: 8f62acb54dd3f3e47a3c903274a098d6, type: 2}
   canRun: {fileID: 11400000, guid: 6b5eac3e27b7d254c8468fe35cfa1d23, type: 2}
-  distance: -10
+  distance: -1
 --- !u!114 &1064883572
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2671,6 +2685,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.AI.NavMeshAgent, UnityEngine
         m_MethodName: set_stoppingDistance
         m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 888267999}
+        m_TargetAssemblyTypeName: NavAgentBehaviour, Assembly-CSharp
+        m_MethodName: StartRepeatUntilFalse
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3194,6 +3220,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.AI.NavMeshAgent, UnityEngine
         m_MethodName: set_stoppingDistance
         m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 888267999}
+        m_TargetAssemblyTypeName: NavAgentBehaviour, Assembly-CSharp
+        m_MethodName: StartRepeatUntilFalse
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
