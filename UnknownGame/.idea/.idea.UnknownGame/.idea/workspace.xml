@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e902a25f-adfc-4b96-b472-5b7f306d95f1" name="Changes" comment="" />
+    <list default="true" id="e902a25f-adfc-4b96-b472-5b7f306d95f1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/Canvas.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Canvas.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/Start.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Start.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,6 +88,7 @@
       <workItem from="1666749654494" duration="6240000" />
       <workItem from="1666837199712" duration="847000" />
       <workItem from="1667159467332" duration="601000" />
+      <workItem from="1668471291068" duration="596000" />
     </task>
     <servers />
   </component>
