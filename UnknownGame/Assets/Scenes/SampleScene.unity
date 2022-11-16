@@ -2093,7 +2093,7 @@ Transform:
   m_GameObject: {fileID: 1064883564}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.3536, y: 1.3536, z: 1.3536}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 888267998}
@@ -2265,7 +2265,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5000001
+  m_Radius: 1.2
 --- !u!114 &1064883571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2503,7 +2503,6 @@ GameObject:
   - component: {fileID: 1494865552}
   - component: {fileID: 1494865551}
   - component: {fileID: 1494865550}
-  - component: {fileID: 1494865549}
   - component: {fileID: 1494865548}
   m_Layer: 5
   m_Name: ReplayButton
@@ -2629,26 +2628,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!95 &1494865549
-Animator:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1494865546}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 72d79244c11b0704ebffd09c5b31c088, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &1494865550
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2801,19 +2780,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 11400000, guid: 623875670b9b6a14c819ee1a28e9c2ca, type: 2}
-        m_TargetAssemblyTypeName: BoolData, Assembly-CSharp
-        m_MethodName: SetValue
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 888268000}
+      - m_Target: {fileID: 1043411205}
         m_TargetAssemblyTypeName: PositionResetBehaviour, Assembly-CSharp
         m_MethodName: ResetPosition
         m_Mode: 1
@@ -3610,8 +3577,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1448746367127787309}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.9, z: 0}
-  m_LocalScale: {x: 35.699005, y: 1.2585937, z: 1}
+  m_LocalPosition: {x: 0, y: 4.1814, z: 0}
+  m_LocalScale: {x: 35, y: 2.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -3775,6 +3742,7 @@ MonoBehaviour:
   endFireEvent:
     m_PersistentCalls:
       m_Calls: []
+  destroyTime: 5
   lineRenderer: {fileID: 1448746367127787298}
 --- !u!50 &1448746367127787303
 Rigidbody2D:
