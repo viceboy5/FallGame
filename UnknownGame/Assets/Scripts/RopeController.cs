@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
@@ -9,7 +8,7 @@ public class RopeController : MonoBehaviour
     
     public GameObject ropeShooter;
     public SpringJoint2D rope;
-    public bool canFire;
+    public BoolData canFire;
     public UnityEvent startFireEvent, endFireEvent;
 
     public LineRenderer lineRenderer;
@@ -22,7 +21,7 @@ public class RopeController : MonoBehaviour
 
     private IEnumerator OnMouseDown()
     {
-        canFire = true;
+        canFire.value = true;
         startFireEvent.Invoke();
 
         yield return new WaitForFixedUpdate();
@@ -38,7 +37,7 @@ public class RopeController : MonoBehaviour
 
     private void OnMouseUp()
     {
-        canFire = false;
+        canFire.value = false;
         GameObject.DestroyImmediate(rope);
         endFireEvent.Invoke();
         

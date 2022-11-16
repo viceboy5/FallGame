@@ -250,7 +250,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ropeShooter: {fileID: 0}
   rope: {fileID: 0}
-  canFire: 0
+  canFire: {fileID: 11400000, guid: bc7e535d07027f246a49b42001557d05, type: 2}
+  gameStarted: {fileID: 11400000, guid: 623875670b9b6a14c819ee1a28e9c2ca, type: 2}
   startFireEvent:
     m_PersistentCalls:
       m_Calls:
