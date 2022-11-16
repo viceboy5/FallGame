@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e902a25f-adfc-4b96-b472-5b7f306d95f1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.UnknownGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnknownGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Roof.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Roof.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/RopeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RopeController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +84,7 @@
       <workItem from="1666837199712" duration="847000" />
       <workItem from="1667159467332" duration="601000" />
       <workItem from="1668471291068" duration="596000" />
-      <workItem from="1668617554072" duration="4006000" />
+      <workItem from="1668617554072" duration="4823000" />
     </task>
     <servers />
   </component>

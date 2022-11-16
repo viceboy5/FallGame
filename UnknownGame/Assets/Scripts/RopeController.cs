@@ -63,7 +63,6 @@ public class RopeController : MonoBehaviour
             rope.connectedAnchor = hit.point;
             rope.enabled = true;
             StartCoroutine(LineRenderer());
-
         }
     }
     private IEnumerator LineRenderer()
