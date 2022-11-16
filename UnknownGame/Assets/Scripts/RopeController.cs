@@ -31,7 +31,6 @@ public class RopeController : MonoBehaviour
         {
             yield return wffu;
             Fire();
-            Debug.Log("MouseDown");
         }
         
     }
@@ -62,7 +61,6 @@ public class RopeController : MonoBehaviour
             newRope.dampingRatio = .5f;
             newRope.connectedAnchor = hit.point;
             newRope.enabled = true;
-            Debug.Log("Firing");
 
             rope = newRope;
            
@@ -81,8 +79,7 @@ public class RopeController : MonoBehaviour
         {
             lineRenderer.enabled = false;
         }
-
-        Debug.Log("ewwwww");
+        
     }
 }
 
