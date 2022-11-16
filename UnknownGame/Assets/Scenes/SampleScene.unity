@@ -1553,6 +1553,7 @@ GameObject:
   - component: {fileID: 888267998}
   - component: {fileID: 888267997}
   - component: {fileID: 888267999}
+  - component: {fileID: 888268000}
   m_Layer: 0
   m_Name: NavAgent
   m_TagString: Untagged
@@ -1613,6 +1614,19 @@ MonoBehaviour:
   destination: {fileID: 11400000, guid: 1553adcc1de79a742b57712784085791, type: 2}
   newDestination: {fileID: 11400000, guid: 8f62acb54dd3f3e47a3c903274a098d6, type: 2}
   canRun: {fileID: 11400000, guid: 24d7c6bed62d82c44a434324fac795b3, type: 2}
+--- !u!114 &888268000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 888267996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15f8c8fe9c451b2459fecc9f8f7ee3ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newLoc: {fileID: 11400000, guid: aca69b41fe9b106448adc11c41c569d0, type: 2}
 --- !u!1 &963313428
 GameObject:
   m_ObjectHideFlags: 0
@@ -2224,6 +2238,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1043411205}
+        m_TargetAssemblyTypeName: PositionResetBehaviour, Assembly-CSharp
+        m_MethodName: ResetPosition
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!58 &1064883570
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2745,18 +2771,6 @@ MonoBehaviour:
       - m_Target: {fileID: 888267999}
         m_TargetAssemblyTypeName: NavAgentBehaviour, Assembly-CSharp
         m_MethodName: StartRepeatUntilFalse
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 1043411205}
-        m_TargetAssemblyTypeName: PositionResetBehaviour, Assembly-CSharp
-        m_MethodName: ResetPosition
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
