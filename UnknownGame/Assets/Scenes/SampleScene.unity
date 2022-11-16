@@ -1553,7 +1553,6 @@ GameObject:
   - component: {fileID: 888267998}
   - component: {fileID: 888267997}
   - component: {fileID: 888267999}
-  - component: {fileID: 888268000}
   m_Layer: 0
   m_Name: NavAgent
   m_TagString: Untagged
@@ -1597,7 +1596,7 @@ Transform:
   m_Children:
   - {fileID: 1064883566}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &888267999
 MonoBehaviour:
@@ -1614,19 +1613,6 @@ MonoBehaviour:
   destination: {fileID: 11400000, guid: 1553adcc1de79a742b57712784085791, type: 2}
   newDestination: {fileID: 11400000, guid: 8f62acb54dd3f3e47a3c903274a098d6, type: 2}
   canRun: {fileID: 11400000, guid: 24d7c6bed62d82c44a434324fac795b3, type: 2}
---- !u!114 &888268000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 888267996}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5a08291eb9dc334bbea8e3af03e7d19, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  newPosition: {fileID: 11400000, guid: aca69b41fe9b106448adc11c41c569d0, type: 2}
 --- !u!1 &963313428
 GameObject:
   m_ObjectHideFlags: 0
@@ -1780,8 +1766,8 @@ Transform:
   m_GameObject: {fileID: 1043411185}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0.37, z: 0}
-  m_LocalScale: {x: 0.7983263, y: 0.7983263, z: 0.7983263}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -2230,18 +2216,6 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
         m_MethodName: Play
         m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 11400000, guid: 623875670b9b6a14c819ee1a28e9c2ca, type: 2}
-        m_TargetAssemblyTypeName: BoolData, Assembly-CSharp
-        m_MethodName: SetValue
-        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2792,18 +2766,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 888268000}
-        m_TargetAssemblyTypeName: PositionResetBehaviour, Assembly-CSharp
-        m_MethodName: ResetPosition
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
 --- !u!114 &1494865551
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2939,7 +2901,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1721518838
 MonoBehaviour:
@@ -3331,18 +3293,6 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: NavAgentBehaviour, Assembly-CSharp
         m_MethodName: StartRepeatUntilFalse
         m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 11400000, guid: 623875670b9b6a14c819ee1a28e9c2ca, type: 2}
-        m_TargetAssemblyTypeName: BoolData, Assembly-CSharp
-        m_MethodName: SetValue
-        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3780,7 +3730,6 @@ GameObject:
   - component: {fileID: 1448746367127787298}
   - component: {fileID: 1448746367127787302}
   - component: {fileID: 6498451335322900634}
-  - component: {fileID: 6498451335322900636}
   - component: {fileID: 6498451335322900635}
   m_Layer: 0
   m_Name: StartingRoof
@@ -3898,23 +3847,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   newPosition: {fileID: 11400000, guid: e326c925532eae74da728a408ea315dc, type: 2}
---- !u!95 &6498451335322900636
-Animator:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1448746367127787309}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 31f7f1635b239114bb66b0e7fab906d1, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
