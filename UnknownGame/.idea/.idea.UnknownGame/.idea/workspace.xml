@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e902a25f-adfc-4b96-b472-5b7f306d95f1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RopeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RopeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptLibrary/DestroyBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptLibrary/DestroyBehaviour.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
