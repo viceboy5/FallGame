@@ -32,7 +32,7 @@ Transform:
   m_GameObject: {fileID: 1448746368236348615}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.060000002, y: 4.85, z: 0}
-  m_LocalScale: {x: 22.311878, y: 1.2585937, z: 1}
+  m_LocalScale: {x: 35, y: 2.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -251,7 +251,6 @@ MonoBehaviour:
   ropeShooter: {fileID: 0}
   rope: {fileID: 0}
   canFire: {fileID: 11400000, guid: bc7e535d07027f246a49b42001557d05, type: 2}
-  gameStarted: {fileID: 11400000, guid: 623875670b9b6a14c819ee1a28e9c2ca, type: 2}
   startFireEvent:
     m_PersistentCalls:
       m_Calls:

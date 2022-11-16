@@ -11,6 +11,7 @@ public class RopeController : MonoBehaviour
     public BoolData canFire;
     public UnityEvent startFireEvent, endFireEvent;
     private WaitForFixedUpdate wffu = new WaitForFixedUpdate();
+    public float destroyTime = 5.0f;
 
     public LineRenderer lineRenderer;
 
@@ -37,10 +38,10 @@ public class RopeController : MonoBehaviour
 
     private void OnMouseUp()
     {
+        lineRenderer.enabled = false;
         canFire.value = false;
-        GameObject.DestroyImmediate(rope);
+        GameObject.Destroy(rope);
         endFireEvent.Invoke();
-        
     }
 
     private void Fire()
@@ -53,33 +54,27 @@ public class RopeController : MonoBehaviour
         
         if (hit.collider != null)
         {
-            SpringJoint2D newRope = ropeShooter.AddComponent<SpringJoint2D>();
-            newRope.autoConfigureDistance = false;
-            newRope.distance = direction.magnitude/4;
-            newRope.enableCollision = false;
-            newRope.frequency = .5f;
-            newRope.dampingRatio = .5f;
-            newRope.connectedAnchor = hit.point;
-            newRope.enabled = true;
+            rope = ropeShooter.AddComponent<SpringJoint2D>();
+            rope.autoConfigureDistance = false;
+            rope.distance = direction.magnitude/4;
+            rope.enableCollision = false;
+            rope.frequency = .5f;
+            rope.dampingRatio = .5f;
+            rope.connectedAnchor = hit.point;
+            rope.enabled = true;
+            StartCoroutine(LineRenderer());
 
-            rope = newRope;
-           
         }
     }
-    private void LateUpdate()
+    private IEnumerator LineRenderer()
     {
-        if (rope != null)
+        while (rope != null)
         {
             lineRenderer.enabled = true;
-            //lineRenderer.SetVertexCount(2);
             lineRenderer.SetPosition(0, ropeShooter.transform.position);
             lineRenderer.SetPosition(1, rope.connectedAnchor);
+            yield return wffu;
         }
-        else
-        {
-            lineRenderer.enabled = false;
-        }
-        
     }
 }
 
