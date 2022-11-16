@@ -10,6 +10,7 @@ public class RopeController : MonoBehaviour
     public SpringJoint2D rope;
     public BoolData canFire;
     public UnityEvent startFireEvent, endFireEvent;
+    private WaitForFixedUpdate wffu = new WaitForFixedUpdate();
 
     public LineRenderer lineRenderer;
 
@@ -24,11 +25,11 @@ public class RopeController : MonoBehaviour
         canFire.value = true;
         startFireEvent.Invoke();
 
-        yield return new WaitForFixedUpdate();
+        yield return wffu;
         
         if (canFire)
         {
-            yield return new WaitForFixedUpdate();
+            yield return wffu;
             Fire();
             Debug.Log("MouseDown");
         }
