@@ -4,12 +4,13 @@ using UnityEngine.AI;
 [RequireComponent(typeof(NavMeshAgent))]
 public class NavMeshWarpBehaviour : MonoBehaviour
 {
-    private NavMeshAgent agent;
+    public NavMeshAgent agent;
     public Vector3Data newLoc;
     
     public void Warp()
     {
         agent.Warp(newLoc.value);
+        Debug.Log("warped agent");
     }
 }
 
