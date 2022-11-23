@@ -6,8 +6,10 @@ using UnityEngine;
 public class CameraMovement : MonoBehaviour
 {
     public Transform target;
+    public float offset;
+    
     void Update()
     {
-        transform.position = new Vector3(target.position.x, transform.position.y, -10);
+        transform.position = new Vector3(target.position.x - offset, transform.position.y, -10);
     }
 }
