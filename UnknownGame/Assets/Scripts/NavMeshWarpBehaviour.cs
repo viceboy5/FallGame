@@ -10,7 +10,6 @@ public class NavMeshWarpBehaviour : MonoBehaviour
     public void Warp()
     {
         agent.Warp(newLoc.value);
-        Debug.Log("warped agent");
     }
 }
 
