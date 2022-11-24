@@ -4,18 +4,12 @@ using UnityEngine;
 public class BackgroundScrollBehaviour : MonoBehaviour
 {
     public FloatData scrollSpeed;
-    //public Vector3Data startPos;
-    private Vector3 startPos;
+    public Vector3Data startPos;
     public float distance;
-
-    private void Start()
-    {
-        startPos = transform.position;
-    }
-
+    
     void Update()
     {
         float newPos = Mathf.Repeat(Time.time * scrollSpeed.value, distance);
-        transform.position = startPos + Vector3.right * newPos;
+        transform.position = startPos.value + Vector3.right * newPos;
     }
 }
