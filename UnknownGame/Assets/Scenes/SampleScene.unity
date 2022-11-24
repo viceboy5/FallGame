@@ -514,6 +514,7 @@ MonoBehaviour:
   scrollSpeed: {fileID: 11400000, guid: 750393dcdc8cfcd4d82730c1c58ef8e9, type: 2}
   startPos: {fileID: 11400000, guid: 354d85dbea16f0f4fadaaa1f4ac20c51, type: 2}
   cameraPos: {fileID: 11400000, guid: 9c9aa0458646a124cae5aa58ec563386, type: 2}
+  canRun: {fileID: 11400000, guid: c9c8def00b307a445b850659dbda85fb, type: 2}
   distance: 55.14
   modifier: 10
 --- !u!1 &459297173
@@ -3324,6 +3325,18 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1043411206}
         m_TargetAssemblyTypeName: GetVelocity2DBehaviour, Assembly-CSharp
+        m_MethodName: StartRepeatUntilFalse
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 396365225}
+        m_TargetAssemblyTypeName: BackgroundScrollBehaviour, Assembly-CSharp
         m_MethodName: StartRepeatUntilFalse
         m_Mode: 1
         m_Arguments:

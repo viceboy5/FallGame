@@ -31,8 +31,8 @@ public class BackgroundScrollBehaviour : MonoBehaviour
     
     private void Scroll()
     {
-        startPos.value[0] = cameraPos.value[0];
         
+        startPos.value[0] = cameraPos.value[0];
         float newPos = Mathf.Repeat(Time.time * -scrollSpeed.value/modifier, distance);
         transform.position = startPos.value + Vector3.right * newPos;
     }
