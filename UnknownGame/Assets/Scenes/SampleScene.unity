@@ -423,7 +423,6 @@ GameObject:
   - component: {fileID: 396365223}
   - component: {fileID: 396365224}
   - component: {fileID: 396365225}
-  - component: {fileID: 396365226}
   m_Layer: 0
   m_Name: Background Art
   m_TagString: Untagged
@@ -515,22 +514,6 @@ MonoBehaviour:
   scrollSpeed: {fileID: 11400000, guid: 5923fcff398422c478e4534a73ba5f58, type: 2}
   startPos: {fileID: 11400000, guid: 354d85dbea16f0f4fadaaa1f4ac20c51, type: 2}
   distance: 55.14
---- !u!114 &396365226
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 396365222}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6765215d2657524439de10f5f81f328d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentV3: {fileID: 11400000, guid: 1553adcc1de79a742b57712784085791, type: 2}
-  childV3: {fileID: 11400000, guid: 354d85dbea16f0f4fadaaa1f4ac20c51, type: 2}
-  canRun: {fileID: 11400000, guid: 772a9605c684c9e4da3a6a5c1d255c34, type: 2}
-  distance: 0
 --- !u!1 &459297173
 GameObject:
   m_ObjectHideFlags: 0
@@ -3349,7 +3332,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 396365226}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: PositionTransferBehaviour, Assembly-CSharp
         m_MethodName: StartRepeatUntilFalse
         m_Mode: 1

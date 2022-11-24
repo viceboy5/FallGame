@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09f2e07c2ee738a4ebcf3c90e292993b, type: 3}
   m_Name: BackgroundStartPos
   m_EditorClassIdentifier: 
-  value: {x: 347.99725, y: 1, z: 0}
+  value: {x: 4.631501, y: -3.641485, z: 0.1906662}
