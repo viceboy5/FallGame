@@ -438,7 +438,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 396365222}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.631501, y: -3.641485, z: 0.1906662}
+  m_LocalPosition: {x: 4.631501, y: -3.6414847, z: 0.1906662}
   m_LocalScale: {x: 0.41212642, y: 0.41212642, z: 0.41212642}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -513,8 +513,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scrollSpeed: {fileID: 11400000, guid: 750393dcdc8cfcd4d82730c1c58ef8e9, type: 2}
   startPos: {fileID: 11400000, guid: 354d85dbea16f0f4fadaaa1f4ac20c51, type: 2}
+  cameraPos: {fileID: 11400000, guid: 9c9aa0458646a124cae5aa58ec563386, type: 2}
   distance: 55.14
-  modifier: 1111111
+  modifier: 10
 --- !u!1 &459297173
 GameObject:
   m_ObjectHideFlags: 0
@@ -3323,18 +3324,6 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1043411206}
         m_TargetAssemblyTypeName: GetVelocity2DBehaviour, Assembly-CSharp
-        m_MethodName: StartRepeatUntilFalse
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: PositionTransferBehaviour, Assembly-CSharp
         m_MethodName: StartRepeatUntilFalse
         m_Mode: 1
         m_Arguments:
