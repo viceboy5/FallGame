@@ -6,10 +6,11 @@ public class BackgroundScrollBehaviour : MonoBehaviour
     public FloatData scrollSpeed;
     public Vector3Data startPos;
     public float distance;
+    public float modifier;
     
     void Update()
     {
-        float newPos = Mathf.Repeat(Time.time * scrollSpeed.value, distance);
+        float newPos = Mathf.Repeat(Time.time * -scrollSpeed.value/modifier, distance);
         transform.position = startPos.value + Vector3.right * newPos;
     }
 }

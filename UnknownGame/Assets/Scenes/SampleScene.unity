@@ -511,9 +511,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18461e114f431b14eb47a88bc9399ca5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollSpeed: {fileID: 11400000, guid: 5923fcff398422c478e4534a73ba5f58, type: 2}
+  scrollSpeed: {fileID: 11400000, guid: 750393dcdc8cfcd4d82730c1c58ef8e9, type: 2}
   startPos: {fileID: 11400000, guid: 354d85dbea16f0f4fadaaa1f4ac20c51, type: 2}
   distance: 55.14
+  modifier: 1111111
 --- !u!1 &459297173
 GameObject:
   m_ObjectHideFlags: 0
