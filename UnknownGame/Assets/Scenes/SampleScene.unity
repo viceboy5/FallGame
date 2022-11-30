@@ -2357,7 +2357,8 @@ MonoBehaviour:
   background: {fileID: 1478510605}
   x: 0.01
   y: 0
-  speed: {fileID: 11400000, guid: 750393dcdc8cfcd4d82730c1c58ef8e9, type: 2}
+  scrollsSpeed: {fileID: 11400000, guid: 750393dcdc8cfcd4d82730c1c58ef8e9, type: 2}
+  canRun: {fileID: 11400000, guid: 772a9605c684c9e4da3a6a5c1d255c34, type: 2}
 --- !u!1 &1494865546
 GameObject:
   m_ObjectHideFlags: 0
@@ -3153,8 +3154,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: BackgroundScrollBehaviour, Assembly-CSharp
+      - m_Target: {fileID: 1478510607}
+        m_TargetAssemblyTypeName: CameraScrolling, Assembly-CSharp
         m_MethodName: StartRepeatUntilFalse
         m_Mode: 1
         m_Arguments:

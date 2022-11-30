@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -5,12 +6,27 @@ public class CameraScrolling : MonoBehaviour
 {
     [SerializeField] private RawImage background;
     [SerializeField] private float x, y;
-    public FloatData speed;
+    public FloatData scrollsSpeed;
+    public BoolData canRun;
+    private WaitForFixedUpdate wffu;
     
-
-    // Update is called once per frame
-    void Update()
+    public void StartRepeatUntilFalse()
     {
-        background.uvRect = new Rect(background.uvRect.position + new Vector2(x,y) * (speed.value * Time.deltaTime), background.uvRect.size);
+        canRun.value = true;
+        StartCoroutine(StartScroll());
+    }
+
+    private IEnumerator StartScroll()
+    {
+        while (canRun.value) 
+        {
+            Scroll();
+            yield return wffu;
+        }
+    }
+    
+    private void Scroll()
+    {
+        background.uvRect = new Rect(background.uvRect.position + new Vector2(x,y) * (scrollsSpeed.value * Time.deltaTime), background.uvRect.size);
     }
 }
