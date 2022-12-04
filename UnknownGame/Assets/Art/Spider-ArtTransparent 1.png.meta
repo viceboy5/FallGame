@@ -1,0 +1,732 @@
+fileFormatVersion: 2
+guid: f86b123bf7279cc48a3960b1150983ea
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spider-ArtTransparent 1_0
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 1348
+        width: 211
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8acb88a02227ce34fab644c4bf52fbf7
+      internalID: 1276564434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider-ArtTransparent 1_1
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 1348
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe27b8db5293d264aafbf6777184cbe8
+      internalID: -1560005117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider-ArtTransparent 1_2
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 1372
+        width: 233
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329dfffbb23280d489c61f9f4ada8d4e
+      internalID: 1540019504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider-ArtTransparent 1_3
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 1347
+        width: 6
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ada2d5e6a97f814882f31753a271d6e
+      internalID: -1589555411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider-ArtTransparent 1_4
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 1220
+        width: 240
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d95cc1b15369924f8a29b4b0fc7676a
+      internalID: -327031262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider-ArtTransparent 1_5
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 864
+        width: 700
+        height: 482
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ad8163cc0309d40934cc7ff47185a6
+      internalID: -1035451460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider-ArtTransparent 1_6
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 1202
+        width: 238
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b3955c4c6cdd641bfa61abbee1c8ab
+      internalID: 824187104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider-ArtTransparent 1_7
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 1258
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11599019a29506a498ecfeb729346c59
+      internalID: 2111413384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider-ArtTransparent 1_8
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 1245
+        width: 26
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb74372008a94f4bbf345d06e3f150c
+      internalID: 925712748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider-ArtTransparent 1_9
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 1112
+        width: 161
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 988971858e955bf4d83d1873ceec6c7a
+      internalID: -128357496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider-ArtTransparent 1_10
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1187
+        width: 8
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d28c5c83d81f364098f6b5e6016c445
+      internalID: -85660816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider-ArtTransparent 1_11
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 979
+        width: 156
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b345594b9dbed49b9beb34e0996f28
+      internalID: 1600316552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider-ArtTransparent 1_12
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 1133
+        width: 32
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dd1c751690c63a429aedefb7b23c197
+      internalID: 583428612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider-ArtTransparent 1_13
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 1126
+        width: 16
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4bbd8decef126c4098d7157c1aff6e2
+      internalID: -1825057397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider-ArtTransparent 1_14
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 942
+        width: 103
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d777a484c0985f943bdeea50cfeea650
+      internalID: 1210098310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider-ArtTransparent 1_15
+      rect:
+        serializedVersion: 2
+        x: 1955
+        y: 1053
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0843090051553bf428dac9bbdcca7f59
+      internalID: 940671546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider-ArtTransparent 1_16
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 1022
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a704bdf068ad4714a9112d17fe7b47b6
+      internalID: -1789527479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider-ArtTransparent 1_17
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 1019
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a4fc4d2c990f645890377ea364d500
+      internalID: 1303358313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider-ArtTransparent 1_18
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 839
+        width: 92
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f80ace78f6aeadb4793751198da01eb5
+      internalID: 112679543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider-ArtTransparent 1_19
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 994
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd47fd3eccf3214690a817451221450
+      internalID: -1053391658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider-ArtTransparent 1_20
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 957
+        width: 28
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ebd510592a740419639fa5f1ed0aed
+      internalID: -1189803484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider-ArtTransparent 1_21
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 912
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acdc76764b85be141a20d104fc595f88
+      internalID: 1538144028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider-ArtTransparent 1_22
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 271
+        width: 700
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ccce5e0d5ed81b48856e3c0326e793d
+      internalID: -280775919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider-ArtTransparent 1_23
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 473
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c27ffbf7c36d347a634b17ad6b2cc1
+      internalID: -577642487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider-ArtTransparent 1_24
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 432
+        width: 141
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8034c8d3209cbc4408659b436c57053d
+      internalID: -1501926468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider-ArtTransparent 1_25
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 270
+        width: 186
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b186988b84b7929458df5916b3e2047b
+      internalID: 1031783661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spider-ArtTransparent 1_26
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 113
+        width: 161
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133d24e0faea3094bb8b9a1f665f3eeb
+      internalID: 2106815163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: -603, y: 41}
+      - {x: -603, y: 603}
+      - {x: 115, y: 603}
+      - {x: 115, y: 41}
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Spider-ArtTransparent 1_15: 940671546
+      Spider-ArtTransparent 1_5: -1035451460
+      Spider-ArtTransparent 1_2: 1540019504
+      Spider-ArtTransparent 1_24: -1501926468
+      Spider-ArtTransparent 1_4: -327031262
+      Spider-ArtTransparent 1_20: -1189803484
+      Spider-ArtTransparent 1_21: 1538144028
+      Spider-ArtTransparent 1_23: -577642487
+      Spider-ArtTransparent 1_26: 2106815163
+      Spider-ArtTransparent 1_3: -1589555411
+      Spider-ArtTransparent 1_7: 2111413384
+      Spider-ArtTransparent 1_11: 1600316552
+      Spider-ArtTransparent 1_19: -1053391658
+      Spider-ArtTransparent 1_1: -1560005117
+      Spider-ArtTransparent 1_12: 583428612
+      Spider-ArtTransparent 1_17: 1303358313
+      Spider-ArtTransparent 1_14: 1210098310
+      Spider-ArtTransparent 1_25: 1031783661
+      Spider-ArtTransparent 1_8: 925712748
+      Spider-ArtTransparent 1_13: -1825057397
+      Spider-ArtTransparent 1_9: -128357496
+      Spider-ArtTransparent 1_6: 824187104
+      Spider-ArtTransparent 1_10: -85660816
+      Spider-ArtTransparent 1_22: -280775919
+      Spider-ArtTransparent 1_16: -1789527479
+      Spider-ArtTransparent 1_18: 112679543
+      Spider-ArtTransparent 1_0: 1276564434
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
