@@ -11,14 +11,13 @@ GameObject:
   - component: {fileID: 5355942954932641442}
   - component: {fileID: 5355942954932641443}
   - component: {fileID: 5355942954932641440}
-  - component: {fileID: 5355942954932641441}
   - component: {fileID: 5355942954932641444}
   - component: {fileID: 5887173277740849924}
   - component: {fileID: -1575866738557710794}
   - component: {fileID: -9179079542283272712}
   - component: {fileID: 3594891534169941276}
   m_Layer: 2
-  m_Name: Obstacle
+  m_Name: Fly
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -127,27 +126,6 @@ PolygonCollider2D:
       - {x: 1.0481287, y: -6.063003}
       - {x: 4.49726, y: -4.6076813}
       - {x: 5.8937263, y: -0.42662215}
---- !u!50 &5355942954932641441
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5355942954932641454}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!120 &5355942954932641444
 LineRenderer:
   m_ObjectHideFlags: 0
