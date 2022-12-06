@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 5355942954932641444}
   - component: {fileID: 5887173277740849924}
   - component: {fileID: -1575866738557710794}
+  - component: {fileID: -9179079542283272712}
   m_Layer: 2
   m_Name: Obstacle
   m_TagString: Untagged
@@ -264,3 +265,45 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: {fileID: 11400000, guid: d7e7d85f1501d6b44b32fa848a31959d, type: 2}
+  CanRun: {fileID: 11400000, guid: 206823d68d1b6864d9f15b9c88767014, type: 2}
+--- !u!114 &-9179079542283272712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5355942954932641454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bacfbab511f5294bb738c6b0dbc748d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: -1575866738557710794}
+        m_TargetAssemblyTypeName: ConstantMovement2DBehaviour, Assembly-CSharp
+        m_MethodName: StartMove
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  startCountEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  repeatCountEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  endCountEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  repeatUntilFalseEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  counterNum: {fileID: 0}
+  seconds: 3
