@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 5887173277740849924}
   - component: {fileID: -1575866738557710794}
   - component: {fileID: -9179079542283272712}
+  - component: {fileID: 3594891534169941276}
   m_Layer: 2
   m_Name: Obstacle
   m_TagString: Untagged
@@ -30,14 +31,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5355942954932641454}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 83.6, y: -4, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 0.09427219, y: 0.09427219, z: 0.09427219}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &5355942954932641443
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -79,7 +80,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 3625043607559282579, guid: 19fb86013d8c24d6cb8410c0aadf30fa, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9633765caa00517448191c20c5ff8959, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -107,7 +108,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 0.5}
+    oldSize: {x: 12.4, y: 12.8}
     newSize: {x: 1, y: 0.5}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -115,10 +116,17 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0, y: 0.25}
-      - {x: -0.5, y: 0}
-      - {x: 0, y: -0.25}
-      - {x: 0.5, y: 0}
+    - - {x: 5.133792, y: 1.8401433}
+      - {x: 0.21698076, y: 6.5369034}
+      - {x: -1.2711805, y: 5.914379}
+      - {x: -2.485575, y: 4.1888003}
+      - {x: -4.831646, y: 4.851535}
+      - {x: -7.2161517, y: 3.2440944}
+      - {x: -3.7772264, y: -3.9084554}
+      - {x: -1.6201751, y: -5.18323}
+      - {x: 1.0481287, y: -6.063003}
+      - {x: 4.49726, y: -4.6076813}
+      - {x: 5.8937263, y: -0.42662215}
 --- !u!50 &5355942954932641441
 Rigidbody2D:
   serializedVersion: 4
@@ -251,7 +259,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2266665fa556143b76084c332e8d90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  seconds: 5
+  seconds: 20
 --- !u!114 &-1575866738557710794
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -307,3 +315,30 @@ MonoBehaviour:
       m_Calls: []
   counterNum: {fileID: 0}
   seconds: 3
+--- !u!114 &3594891534169941276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5355942954932641454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73652dbe73f1aec46925f0a16c6c81b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collisionEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: d4f30f49b13dff84385cea21360843d7, type: 2}
+        m_TargetAssemblyTypeName: IntData, Assembly-CSharp
+        m_MethodName: UpdateValue
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
