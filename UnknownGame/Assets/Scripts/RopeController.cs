@@ -59,7 +59,7 @@ public class RopeController : MonoBehaviour
             rope.autoConfigureDistance = false;
             rope.distance = direction.magnitude/modifier;
             rope.enableCollision = false;
-            rope.frequency = .5f;
+            rope.frequency = .6f;
             rope.dampingRatio = .5f;
             rope.connectedAnchor = hit.point;
             rope.enabled = true;
