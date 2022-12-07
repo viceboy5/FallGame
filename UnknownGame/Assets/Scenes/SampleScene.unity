@@ -1418,7 +1418,7 @@ GameObject:
   - component: {fileID: 888267997}
   - component: {fileID: 888267999}
   - component: {fileID: 888268000}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: NavAgent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1894,7 +1894,7 @@ GameObject:
   - component: {fileID: 1064883571}
   - component: {fileID: 1064883572}
   - component: {fileID: 1064883573}
-  m_Layer: 2
+  m_Layer: 7
   m_Name: Chaser
   m_TagString: Untagged
   m_Icon: {fileID: 0}
