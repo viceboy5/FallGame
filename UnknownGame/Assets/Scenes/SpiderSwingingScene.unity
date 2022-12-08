@@ -303,7 +303,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.21813813, g: 0.8113208, b: 0.5419457, a: 1}
+  m_Color: {r: 0.8867924, g: 0.47194844, b: 0.12130654, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -313,7 +313,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 75
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 3
     m_MaxSize: 75
@@ -323,7 +323,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Swingin' Time!
+  m_Text: Start Swingin!
 --- !u!222 &330407925
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1044,8 +1044,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -53, y: 85}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -24.1, y: 83.899994}
+  m_SizeDelta: {x: 78.5, y: 36.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &547098558
 MonoBehaviour:
@@ -3937,7 +3937,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.4811321, g: 0.11234919, b: 0.06127626, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -4303,7 +4303,6 @@ MonoBehaviour:
   endFireEvent:
     m_PersistentCalls:
       m_Calls: []
-  destroyTime: 5
   modifier: 5
   lineRenderer: {fileID: 1448746367127787298}
 --- !u!50 &1448746367127787303
