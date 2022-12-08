@@ -11,7 +11,6 @@ public class RopeController : MonoBehaviour
     public BoolData canFire;
     public UnityEvent startFireEvent, endFireEvent;
     private WaitForFixedUpdate wffu = new WaitForFixedUpdate();
-    public float destroyTime = 5.0f;
     public float modifier;
 
     public LineRenderer lineRenderer;
