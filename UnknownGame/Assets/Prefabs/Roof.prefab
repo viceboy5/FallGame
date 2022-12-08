@@ -269,8 +269,7 @@ MonoBehaviour:
   endFireEvent:
     m_PersistentCalls:
       m_Calls: []
-  destroyTime: 5
-  modifier: 8
+  modifier: 1
   lineRenderer: {fileID: 1448746368236348616}
 --- !u!82 &6498451336361864048
 AudioSource:

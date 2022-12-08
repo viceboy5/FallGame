@@ -11,7 +11,6 @@ public class RopeController : MonoBehaviour
     public BoolData canFire;
     public UnityEvent startFireEvent, endFireEvent;
     private WaitForFixedUpdate wffu = new WaitForFixedUpdate();
-    public float modifier;
 
     public LineRenderer lineRenderer;
 
@@ -56,10 +55,10 @@ public class RopeController : MonoBehaviour
         {
             rope = ropeShooter.AddComponent<SpringJoint2D>();
             rope.autoConfigureDistance = false;
-            rope.distance = direction.magnitude/modifier;
+            rope.distance = direction.magnitude/10;
             rope.enableCollision = false;
             rope.frequency = .6f;
-            rope.dampingRatio = .5f;
+            rope.dampingRatio = .4f;
             rope.connectedAnchor = hit.point;
             rope.enabled = true;
             StartCoroutine(LineRenderer());
