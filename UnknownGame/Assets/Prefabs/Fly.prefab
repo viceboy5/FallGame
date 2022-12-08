@@ -34,8 +34,8 @@ Transform:
   m_GameObject: {fileID: 5355942954932641454}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 83.6, y: -4, z: 0}
-  m_LocalScale: {x: 0.09427219, y: 0.09427219, z: 0.09427219}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -397,7 +397,7 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 131
+  Priority: 90
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
